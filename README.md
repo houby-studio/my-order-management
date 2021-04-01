@@ -35,9 +35,12 @@ Separate backend in C# and frontend in Quasar (Vue.js), communicating via REST A
   - Enable OpenAPI support
   - Authentication for Work or school account, single organization, read directory data
 - In VSCode run command:
-  - Docker: Add Docker Compose Files to Workspace... 
+  - Docker: Add Docker Files to Workspace... 
   - .NET: ASP.NET Core
-- Hit F5 and browse https://localhost:5001/swagger/index.html to view backend API
+  - Linux
+  - 80,443
+  - Yes
+- Hit F5 and browse https://localhost:55000/swagger/index.html to view backend API
 
 ## Code
 

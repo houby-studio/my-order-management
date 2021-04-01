@@ -10,3 +10,12 @@ services:
       dockerfile: MOM.Backend/Dockerfile
     ports:
       - 80
+  momfrontend:
+    image: momfrontend
+    build:
+      context: mom-frontend
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: development
+    ports:
+      - 8080:8080
